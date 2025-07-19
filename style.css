@@ -1,0 +1,64 @@
+.container{
+    /*height: 300px;
+    width: 200px;*/
+    display: grid;
+    grid-template-columns: 1fr; /* flex layout of the container*/
+    position: relative; /*marking the headline as a reference point*/
+
+}
+.who_am_i{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight:500;
+    top: 100px;
+    left: 100px;
+    position: absolute; /*child to container*/
+    color: rgb(4, 112, 112);
+}
+#role{
+    font-weight: 900;
+}
+.my_resume_button{
+    padding: 10px 30px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(4, 112, 112); 
+    color:rgb(255, 255, 255);
+    font-family: Helvetica;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    display: block;
+}
+.contact_me_button{
+    padding: 10px 30px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
+    border: 4px;
+    border-radius: 2px;
+    background-color: rgb(4, 112, 112); 
+    color:rgb(255, 255, 255);
+    font-family: Helvetica;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    display: block;
+}
+ul{
+    font-family: Helvetica;
+    margin-right: 40px;;
+    font-size: 13px;
+    color: rgb(4, 112, 112);
+    overflow: hidden;/*ensures any content outside the box is hidden*/
+    list-style-type: none;/*to remove the default bullets of lists*/
+}
+li{
+    float: right; /*to align items to left*/
+    display: block;
+    padding: 10px 10px;
+}
+li:hover{
+    background-color: rgb(4, 112, 112);
+    transition-duration: 0.3s;
+    color:aliceblue;
+}

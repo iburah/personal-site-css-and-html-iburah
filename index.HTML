@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel ="stylesheet" href = ".\style.css" />
+    <style>
+        
+       /*styling with the hovering effect of the mouse*/
+        .my_resume_button:hover{
+            background-color: rgb(229, 236, 236);
+            transition-duration: 0.s;
+            color: rgb(4, 112, 112);
+        }
+        .contact_me_button:hover{
+            background-color: rgb(229, 236, 236);
+            transition-duration: 0.s;
+            color: rgb(4, 112, 112);
+        }
+        body{
+            background-color: rgb(211, 255, 240);
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    </style>
 </head>
 <body>
+    <div class = 'container'>
+        <p class = "who_am_i"> Hello, I am Ibrahim <br> <span id="role">Front End Developer, Data Analyst <br> and Graphic Designer</span></p>
+        <button class = "my_resume_button">My Resume</button>
+        <button class = "contact_me_button">Contact Me</button>
+
+    </div>
+    <div id="navigation_bar">
+            <ul id="nav_bar_items">
+                <li>Partnerships</li>
+                <li>Projects</li>
+                <li>About Me</li>
+                <li>Home</li>
+
+            </ul>
+
+    </div>
     
 </body>
 </html>
