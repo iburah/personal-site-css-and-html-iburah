@@ -1,55 +1,9 @@
-.container{
-    /*height: 300px;
+.long-box{
+    margin-top: 5px;
     width: 100%;
-    position: relative;*/ /*marking the headline as a reference point*/
-    display:flex;
-    gap: 10px; /*defining space between items*/
-    margin-top: 50px;
-    margin-left: 130px;
-    flex-direction: column;/*stacking items in the container vertically*/
+    height: 30px;
+    background-color: rgb(255, 8, 0);
 }
-
-.about-me{
-    width: 50%;
-    font-family:Tahoma;
-    color: rgb(127, 127, 128);
-    font-size: 18px;;
-    border-radius: 8px;
-    line-height: 24px;
-}
-.who_am_i{
-    font-family: Tahoma;
-    font-size: 40px;
-    font-weight:500;
-    /*top: 100px;
-    left: 100px;
-    position: absolute; child to container*/
-    color: rgb(4, 112, 112);
-}
-#role{
-    font-weight: 900;
-    display: block; /*to have this new item on a new line*/
-}
-
-#buttons_grouped{
-    display: flex; /*row arrangement of 2 buttons*/
-    gap: 10px; /*button space from each other*/
-    flex-wrap: wrap;
-    margin-top: 0px;
-
-}
-.my_resume_button, .contact_me_button{
-    padding: 10px 30px;
-    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
-    border: none;
-    border-radius: 2px;
-    background-color: rgb(4, 112, 112); 
-    color:rgb(255, 255, 255);
-    font-family: Tahoma;
-    cursor: pointer;
-    
-}
-
 #navigation_bar{
     margin-top: 20px;
     text-align: right;
@@ -74,6 +28,63 @@ li:hover{
     transition-duration: 0.3s;
     color:aliceblue;
 }
+.container{
+    /*height: 300px;
+    width: 100%;
+    position: relative;*/ /*marking the headline as a reference point*/
+    display:flex;
+    gap: 10px; /*defining space between items*/
+    margin-top: 50px;
+    margin-left: 130px;
+    flex-direction: column;/*stacking items in the container vertically*/
+}
+
+.small-box{
+    width: 450px;
+    height: 5px;
+    background-color: rgb(255, 8, 0);
+}
+.who_am_i{
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight:500;
+
+    color: rgb(4, 112, 112);
+}
+#role{
+    font-weight: 900;
+    display: block; /*to have this new item on a new line*/
+}
+
+.about-me{
+    width: 50%;
+    font-family:Tahoma;
+    color: rgb(127, 127, 128);
+    font-size: 14px;;
+    border-radius: 8px;
+    line-height: 24px;
+}
+
+#buttons_grouped{
+    display: flex; /*row arrangement of 2 buttons*/
+    gap: 10px; /*button space from each other*/
+    flex-wrap: wrap;
+    margin-top: 0px;
+
+}
+.my_resume_button, .contact_me_button{
+    padding: 10px 30px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(4, 112, 112); 
+    color:rgb(255, 255, 255);
+    font-family: Tahoma;
+    cursor: pointer;
+    
+}
+
+
 /*first size*/
 @media(max-width: 900px){
 
