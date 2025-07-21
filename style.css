@@ -4,39 +4,16 @@
     height: 30px;
     background-color: rgb(255, 8, 0);
 }
-#navigation_bar{
-    margin-top: 20px;
-    text-align: right;
-    margin-right: 20px;
-}
-ul{
-    display: inline-block; /*to arrange items in row*/
-    gap: 10px;
-    font-family: Tahoma;
-    font-size: 13px;
-    color: rgb(4, 112, 112);
-    list-style-type: none;/*to remove the default bullets of lists*/
-}
-li{
-    float: right; /*to align items to left, in a row*/
-    display: block;
-    padding: 10px 10px;
-    cursor: pointer;
-}
-li:hover{
-    background-color: rgb(4, 112, 112);
-    transition-duration: 0.3s;
-    color:aliceblue;
-}
+
 .container{
     /*height: 300px;
     width: 100%;
     position: relative;*/ /*marking the headline as a reference point*/
     display:flex;
     gap: 10px; /*defining space between items*/
-    margin-top: 50px;
-    margin-left: 130px;
     flex-direction: column;/*stacking items in the container vertically*/
+    align-items: center;
+    text-align: center;
 }
 
 .small-box{
@@ -84,6 +61,81 @@ li:hover{
     
 }
 
+#navigation_bar{
+    margin-top: 20px;
+    text-align: center;
+}
+ul{
+    display: inline-block; /*to arrange items in row*/
+    gap: 10px;
+    font-family: Tahoma;
+    font-size: 13px;
+    color: rgb(4, 112, 112);
+    list-style-type: none;/*to remove the default bullets of lists*/
+}
+li{
+    float: right; /*to align items to left, in a row*/
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(4, 112, 112);
+    transition-duration: 0.3s;
+    color:aliceblue;
+}
+
+.info-on-me{
+    /*height: 300px;
+    width: 100%;
+    position: relative;*/ /*marking the headline as a reference point*/
+    display: inline-block;
+    top: 20px;
+    gap: 30px; /*defining space between items*/
+    flex-direction: row;/*stacking items in the container vertically*/
+    align-items: center;
+    margin-left: 30px;
+}
+.about-me-2{
+    margin-left: 80px;
+    font-family:Tahoma;
+    color: rgb(127, 127, 128);
+    font-size: 13px;;
+    border-radius: 8px;
+    line-height: 24px;
+    width: 25%;
+    display: inline-block;
+}
+.recent-projects{
+    margin-left: 80px;
+    font-family:Tahoma;
+    color: rgb(127, 127, 128);
+    font-size: 13px;;
+    border-radius: 8px;
+    line-height: 24px;
+    width: 25%;
+    display: inline-block;
+}
+.get-in-touch{
+    margin-left: 80px;
+    font-family:Tahoma;
+    color: rgb(127, 127, 128);
+    font-size: 13px;;
+    border-radius: 8px;
+    line-height: 24px;
+    width: 25%;
+    display: inline-block;
+}
+.a{
+    font-weight: 900;
+    color:  rgb(4, 112, 112);
+    font-size:15px;
+}
+
+
+
+
+
 
 /*first size*/
 @media(max-width: 900px){
@@ -97,7 +149,7 @@ li:hover{
 @media(max-width: 600px){
 
     .who_am_i{
-        font-size: 28px;
+        font-size: 22px;
         text-align: center;
         color:rgb(4, 155, 155);
     }
@@ -115,6 +167,15 @@ li:hover{
         text-align: center;
         width: 100%;
     }
+    .small-box{
+    width: 250px;
+    height: 3px;
+    background-color: rgb(190, 10, 4);
+    }
+    .long-box{
+        background-color: rgb(190, 10, 4);
+    }
+
 
 
 }
