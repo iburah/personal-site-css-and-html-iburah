@@ -9,7 +9,17 @@
     flex-direction: column;/*stacking items in the container vertically*/
 }
 
-
+.about-me{
+    width: 50%;
+    font-family: Helvetica;
+    color: white;
+    font-size: 15px;;
+    display: flex;
+    background-color: rgb(4, 112, 112);
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 18px;
+}
 .who_am_i{
     font-family: Helvetica;
     font-size: 40px;
