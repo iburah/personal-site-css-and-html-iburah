@@ -1,10 +1,12 @@
 .container{
-    /*height: 300px;*/
+    /*height: 300px;
     width: 100%;
-    position: relative; /*marking the headline as a reference point*/
+    position: relative;*/ /*marking the headline as a reference point*/
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    gap: 20px; /*defining space between items*/
+    margin-top: 100px;
+    margin-left: 100px;
+    flex-direction: column;/*stacking items in the container vertically*/
 }
 
 
@@ -12,15 +14,26 @@
     font-family: Helvetica;
     font-size: 40px;
     font-weight:500;
-    top: 100px;
+    /*top: 100px;
     left: 100px;
-    position: absolute; /*child to container*/
+    position: absolute; child to container*/
     color: rgb(4, 112, 112);
-    flex: 1 1 200px;
-    transition: all 0.4s ease;
 }
 #role{
     font-weight: 900;
+    display: block; /*to have this new item on a new line*/
+    margin-top: 10px;
+}
+
+#buttons_grouped{
+    display: flex; /*row arrangement of 2 buttons*/
+    gap: 10px; /*button space from each other*/
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+
+
 }
 .my_resume_button{
     padding: 10px 30px;
