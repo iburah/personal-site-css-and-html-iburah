@@ -4,24 +4,21 @@
     position: relative;*/ /*marking the headline as a reference point*/
     display:flex;
     gap: 10px; /*defining space between items*/
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 130px;
     flex-direction: column;/*stacking items in the container vertically*/
 }
 
 .about-me{
     width: 50%;
-    font-family: Helvetica;
-    color: white;
-    font-size: 15px;;
-    display: flex;
-    background-color: rgb(4, 112, 112);
-    padding: 20px;
+    font-family:Tahoma;
+    color: rgb(127, 127, 128);
+    font-size: 18px;;
     border-radius: 8px;
-    line-height: 18px;
+    line-height: 24px;
 }
 .who_am_i{
-    font-family: Helvetica;
+    font-family: Tahoma;
     font-size: 40px;
     font-weight:500;
     /*top: 100px;
@@ -48,7 +45,7 @@
     border-radius: 2px;
     background-color: rgb(4, 112, 112); 
     color:rgb(255, 255, 255);
-    font-family: Helvetica;
+    font-family: Tahoma;
     cursor: pointer;
     
 }
@@ -61,7 +58,7 @@
 ul{
     display: inline-block; /*to arrange items in row*/
     gap: 10px;
-    font-family: Helvetica;
+    font-family: Tahoma;
     font-size: 13px;
     color: rgb(4, 112, 112);
     list-style-type: none;/*to remove the default bullets of lists*/
@@ -99,6 +96,13 @@ li:hover{
     }
     #navigation_bar{
         text-align: center;
+    }
+    .about-me{
+        align-items: center;
+        font-size: 75%;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
     }
 
 
