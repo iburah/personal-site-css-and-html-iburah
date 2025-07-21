@@ -1,11 +1,13 @@
 .container{
-    /*height: 300px;
-    width: 200px;*/
-    display: grid;
-    grid-template-columns: 1fr; /* flex layout of the container*/
+    /*height: 300px;*/
+    width: 100%;
     position: relative; /*marking the headline as a reference point*/
-
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
+
 .who_am_i{
     font-family: Helvetica;
     font-size: 40px;
@@ -14,6 +16,8 @@
     left: 100px;
     position: absolute; /*child to container*/
     color: rgb(4, 112, 112);
+    flex: 1 1 200px;
+    transition: all 0.4s ease;
 }
 #role{
     font-weight: 900;
