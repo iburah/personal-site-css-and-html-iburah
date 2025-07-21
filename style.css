@@ -45,12 +45,16 @@
     
 }
 
+#navigation_bar{
+    margin-top: 10px;
+    text-align: right;
+}
 ul{
+    display: inline-block; /*to arrange items in row*/
+    gap: 10px;
     font-family: Helvetica;
-    margin-right: 40px;;
     font-size: 13px;
     color: rgb(4, 112, 112);
-    overflow: hidden;/*ensures any content outside the box is hidden*/
     list-style-type: none;/*to remove the default bullets of lists*/
 }
 li{
