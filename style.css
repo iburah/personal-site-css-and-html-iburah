@@ -6,35 +6,37 @@
     width: 100%;
     position: relative;*/ /*marking the headline as a reference point*/
     display:flex;
-    gap: 10px; /*defining space between items*/
+    gap: 5px; /*defining space between items*/
     flex-direction: column;/*stacking items in the container vertically*/
     align-items: center;
     text-align: center;
+    background-color: rgba(243, 235, 253, 0.3);
+    border-top: 8px;
 }
 
 .my-profile-img{
-    width: 300px; /*defining dimensions of picture*/
-    height: 300px;
-    margin-top: 25px;
+    width: 250px; /*defining dimensions of picture*/
+    height: 250px;
+    margin-top: 15px;
     object-fit: cover; /*smooth and balanced picture cropping*/
     border-radius: 50%; /*for circular image shape*/
-    border: 6px double rgb(4, 112, 112); /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
+    border: 6px double #52357B;; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
 }
 .my-profile-img:hover {
-    transform: scale(1.20); /* zoom by 20% on hover*/
+    transform: scale(1.10); /* zoom by 20% on hover*/
 }
 
 .small-box{
     width: 450px;
-    height: 2px;
-    background-color: rgb(255, 8, 0);
+    height: 1px;
+    background-color: #5459AC;
 }
 .who_am_i{
     font-family: Tahoma;
     font-size: 30px;
     font-weight:500;
 
-    color: rgb(4, 112, 112);
+    color: #52357B;
 }
 #role{
     font-weight: 900;
@@ -44,10 +46,11 @@
 .about-me{
     width: 50%;
     font-family:Tahoma;
-    color: rgb(127, 127, 128);
+    color: #5459AC;
     font-size: 14px;;
     border-radius: 8px;
     line-height: 24px;
+    font-weight: bold;
 }
 
 #buttons_grouped{
@@ -57,20 +60,33 @@
     margin-top: 0px;
 
 }
-.my_resume_button, .contact_me_button{
-    padding: 10px 30px;
-    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
+.my_resume_button{
+    padding: 9px 21px;
+    box-shadow: 0px 3px 4px 0px rgb(0, 0, 0, 0.3); /*styling with the box shadow method*/
     border: none;
-    border-radius: 2px;
-    background-color: rgb(4, 112, 112); 
+    border-radius: 3px;
+    background-color: #5459AC;
     color:rgb(255, 255, 255);
     font-family: Tahoma;
     cursor: pointer;
+    margin-bottom: 40px;
     
+}
+.contact_me_button{
+    background-color: none;
+    padding: 9px 21px;
+    box-shadow: 0px 3px 4px 0px rgb(0, 0, 0, 0.3); /*styling with the box shadow method*/
+    border: none;
+    border-radius: 3px;
+    color:#5459AC;
+    font-family: Tahoma;
+    cursor: pointer;
+    margin-bottom: 40px;
+
 }
 
 #navigation_bar{
-    margin-top: 20px;
+    margin-top:5px;
     text-align: center;
 }
 ul{
@@ -78,7 +94,8 @@ ul{
     gap: 10px;
     font-family: Tahoma;
     font-size: 13px;
-    color: rgb(4, 112, 112);
+    font-weight: bold;
+    color: #52357B;
     list-style-type: none;/*to remove the default bullets of lists*/
 }
 li{
@@ -88,9 +105,11 @@ li{
     cursor: pointer;
 }
 li:hover{
-    background-color: rgb(4, 112, 112);
+    background-color: #52357B;
     transition-duration: 0.3s;
     color:aliceblue;
+    border-radius: 7px;
+    transform: translate(5px, 10px);
 }
 
 
@@ -105,53 +124,72 @@ li:hover{
     text-align: center;
     font-family: Tahoma;
     /* text-align: center; */
-  
+    background-color: #5459AC;
     border-radius: 8px;
 }
 .section-title{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
     padding-top: 20px;
+    color: #ffffff;
 
 }
 .underline-1{
     width: 80px;
     height: 1px;
-    background-color: rgb(255, 8, 0);
+    background-color: rgb(255, 255, 255);
     margin:auto; /*provides equal margins on the left and right and centers item*/
 
 }
 .about-me-content{
     display: flex; /* activating flexbox for column layout*/
     align-items: flex-start; /* Aligns items to top */
-    /* flex-wrap: wrap; Allows wrapping on smaller screens */
+    /*flex-wrap: wrap; /*Allows wrapping on smaller screens */
     gap: 5px; /* Adds gap between rows */
     text-align: left;
     flex: 1;
     flex-direction: row;
     margin-left: 300px;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
 
 }
 .underline-2{
     width: 60px;
     height: 1px;
-    background-color: rgb(255, 8, 0);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
 
 }
 .about-me-2{
     font-family:Tahoma;
-    color: rgb(0, 0, 0);
     font-size: 15px;;
-    line-height: 28px;
     width: 80%;
+    border: #52357B;
+
 }
 .about-me-column2{
-    margin-top: 140px;
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
 .about-me-tagline{
     margin-top: 50px;
     font-size: 20px;
+}
+.about-me-column2>button{
+    padding: 10px 30px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
+    border: none;
+    border-radius: 5px;
+    background-color: #5459AC;
+    color:rgb(255, 255, 255);
+    font-family: Tahoma;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.read-more:hover{
+     background-color: #686dc9;
+     transform: scale(1.03);
 }
 /* .recent-projects{
     margin-left: 80px;
@@ -183,16 +221,6 @@ li:hover{
 
 /*RESPONSIVENESS STYLIING*/
 
-
-/*first size*/
-@media(max-width: 900px){
-
-    .who_am_i{
-        font-size: 36px;
-    }
-
-}
-/*second size*/
 @media(max-width: 600px){
 
     .who_am_i{
@@ -214,15 +242,12 @@ li:hover{
         text-align: center;
         width: 100%;
     }
-    .small-box{
-    width: 250px;
-    height: 3px;
-    background-color: rgb(190, 10, 4);
+    .about-me-content{
+        align-items: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 75%;
+        
     }
-    .long-box{
-        background-color: rgb(190, 10, 4);
-    }
-
-
 
 }
