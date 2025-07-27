@@ -16,6 +16,18 @@
     text-align: center;
 }
 
+.my-profile-img{
+    width: 300px; /*defining dimensions of picture*/
+    height: 300px;
+    margin-top: 25px;
+    object-fit: cover; /*smooth and balanced picture cropping*/
+    border-radius: 50%; /*for circular image shape*/
+    border: 6px double rgb(4, 112, 112); /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
+}
+.my-profile-img:hover {
+    transform: scale(1.20); /* zoom by 20% on hover*/
+}
+
 .small-box{
     width: 450px;
     height: 5px;
