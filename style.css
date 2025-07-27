@@ -1,9 +1,5 @@
-.long-box{
-    margin-top: 5px;
-    width: 100%;
-    height: 30px;
-    background-color: rgb(255, 8, 0);
-}
+/*FIRST PAGE*/
+
 
 .container{
     /*height: 300px;
@@ -30,7 +26,7 @@
 
 .small-box{
     width: 450px;
-    height: 5px;
+    height: 2px;
     background-color: rgb(255, 8, 0);
 }
 .who_am_i{
@@ -97,42 +93,65 @@ li:hover{
     color:aliceblue;
 }
 
+
+
+/*SECOND PAGE*/
+
+
 .about-me-section{
  
-    /* display:flex; */
     gap: 10px; /*defining space between items*/
     /*flex-direction: column;/*stacking items in the container vertically*/
     text-align: center;
     font-family: Tahoma;
     /* text-align: center; */
+  
+    border-radius: 8px;
 }
 .section-title{
     font-size: 30px;
     margin-top: 30px;
+    padding-top: 20px;
 
 }
 .underline-1{
     width: 80px;
-    height: 2px;
+    height: 1px;
     background-color: rgb(255, 8, 0);
-    align-items: center;
+    margin:auto; /*provides equal margins on the left and right and centers item*/
 
 }
 .about-me-content{
     display: flex; /* activating flexbox for column layout*/
-    justify-content: space-between; /* Adds space between child elements */
     align-items: flex-start; /* Aligns items to top */
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    gap: 40px; /* Adds gap between columns */
+    /* flex-wrap: wrap; Allows wrapping on smaller screens */
+    gap: 5px; /* Adds gap between rows */
+    text-align: left;
+    flex: 1;
+    flex-direction: row;
+    margin-left: 300px;
+
+}
+.underline-2{
+    width: 60px;
+    height: 1px;
+    background-color: rgb(255, 8, 0);
+    margin-bottom: 30px;
+
 }
 .about-me-2{
-    text-align: left;
     font-family:Tahoma;
-    color: rgb(127, 127, 128);
-    font-size: 13px;;
-    border-radius: 8px;
-    line-height: 24px;
-    width: 25%;
+    color: rgb(0, 0, 0);
+    font-size: 15px;;
+    line-height: 28px;
+    width: 80%;
+}
+.about-me-column2{
+    margin-top: 140px;
+}
+.about-me-tagline{
+    margin-top: 50px;
+    font-size: 20px;
 }
 /* .recent-projects{
     margin-left: 80px;
@@ -162,7 +181,7 @@ li:hover{
 
 
 
-
+/*RESPONSIVENESS STYLIING*/
 
 
 /*first size*/
