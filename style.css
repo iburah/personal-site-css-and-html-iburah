@@ -97,28 +97,44 @@ li:hover{
     color:aliceblue;
 }
 
-.info-on-me{
-    /*height: 300px;
-    width: 100%;
-    position: relative;*/ /*marking the headline as a reference point*/
-    display: inline-block;
-    top: 20px;
-    gap: 30px; /*defining space between items*/
-    flex-direction: row;/*stacking items in the container vertically*/
+.about-me-section{
+ 
+    /* display:flex; */
+    gap: 10px; /*defining space between items*/
+    /*flex-direction: column;/*stacking items in the container vertically*/
+    text-align: center;
+    font-family: Tahoma;
+    /* text-align: center; */
+}
+.section-title{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.underline-1{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(255, 8, 0);
     align-items: center;
-    margin-left: 30px;
+
+}
+.about-me-content{
+    display: flex; /* activating flexbox for column layout*/
+    justify-content: space-between; /* Adds space between child elements */
+    align-items: flex-start; /* Aligns items to top */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 40px; /* Adds gap between columns */
 }
 .about-me-2{
-    margin-left: 80px;
+    text-align: left;
     font-family:Tahoma;
     color: rgb(127, 127, 128);
     font-size: 13px;;
     border-radius: 8px;
     line-height: 24px;
     width: 25%;
-    display: inline-block;
 }
-.recent-projects{
+/* .recent-projects{
     margin-left: 80px;
     font-family:Tahoma;
     color: rgb(127, 127, 128);
@@ -137,7 +153,7 @@ li:hover{
     line-height: 24px;
     width: 25%;
     display: inline-block;
-}
+} */
 .a{
     font-weight: 900;
     color:  rgb(4, 112, 112);
