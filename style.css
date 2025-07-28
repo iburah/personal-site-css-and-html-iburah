@@ -21,6 +21,7 @@
     object-fit: cover; /*smooth and balanced picture cropping*/
     border-radius: 50%; /*for circular image shape*/
     border: 6px double #52357B; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
+
 }
 
 /* Defining the icons for social media */
@@ -28,6 +29,7 @@
 .icon-items{
     display: inline-block; /*to arrange items in row*/
     gap: 20px;
+    cursor: pointer;
 }
 
 .github{
@@ -40,6 +42,7 @@
     height: 30px;
     border-radius: 50%;
     border: 2px double #5459AC;
+    cursor: pointer;
 }
 .linkedin{
     background-image: url("images/icons/linkedin.png");
@@ -51,6 +54,7 @@
     height: 30px;
     border-radius: 50%;
     border: 2px double #5459AC;
+    cursor: pointer;
 }
 .fb{
     background-image: url("images/icons/facebook.png");
@@ -62,6 +66,7 @@
     height: 30px;
     border-radius: 50%;
     border: 2px double #5459AC;
+    cursor: pointer;
 }
 .twitter{
     background-image: url("images/icons/twitter.png");
@@ -73,6 +78,7 @@
     height: 30px;
     border-radius: 50%;
     border: 2px double #5459AC;
+    cursor: pointer;
 }
 .ig{
     background-image: url("images/icons/instagram.png");
@@ -84,6 +90,7 @@
     height: 30px;
     border-radius: 50%;
     border: 2px double #5459AC;
+    
 }
 
 .my-profile-img:hover {
@@ -267,33 +274,66 @@ li:hover{
      background-color: #686dc9;
      transform: scale(1.03);
 }
-/* .recent-projects{
-    margin-left: 80px;
-    font-family:Tahoma;
-    color: rgb(127, 127, 128);
-    font-size: 13px;;
-    border-radius: 8px;
-    line-height: 24px;
-    width: 25%;
-    display: inline-block;
+
+/* Footer-Get in touch */
+
+.stay-in-touch{
+    align-items: center;
+    text-align: center;
+    font-family: Tahoma;
+    display:flex;
+    flex-direction: column;
+    
 }
-.get-in-touch{
-    margin-left: 80px;
-    font-family:Tahoma;
-    color: rgb(127, 127, 128);
-    font-size: 13px;;
-    border-radius: 8px;
-    line-height: 24px;
-    width: 25%;
-    display: inline-block;
-} */
-.a{
-    font-weight: 900;
-    color:  rgb(4, 112, 112);
-    font-size:15px;
+.stay-in-touch p{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.stay-in-touch span{
+    font-size: 15px;
+}
+.underline-3{
+    width: 80px;
+    height: 1px;
+    background-color: #52357B;
+    margin-bottom: 20px;
+    margin:auto; /*provides equal margins on the left and right and centers item*/
+
+}
+.email-box{
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.enter-email{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-size: 12px;
+    color:rgb(134, 133, 133);
+}
+.subscribe-box{
+    width: 100px;
+    height: 40px;
+    background-color: #333435;
+    position: absolute;
+    border-radius: 5px;
+    top: 0px;
+    right: 0px;
 }
 
-
+.subscribe-box div{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 12px;
+    color:white;
+}
 
 /*RESPONSIVENESS STYLIING*/
 
