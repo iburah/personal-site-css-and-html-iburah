@@ -22,6 +22,7 @@
     border-radius: 50%; /*for circular image shape*/
     border: 6px double #52357B;; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
 }
+
 .my-profile-img:hover {
     transform: scale(1.10); /* zoom by 20% on hover*/
 }
@@ -145,14 +146,14 @@ li:hover{
     display: flex; /* activating flexbox for column layout*/
     align-items: flex-start; /* Aligns items to top */
     /*flex-wrap: wrap; /*Allows wrapping on smaller screens */
-    gap: 5px; /* Adds gap between rows */
+    gap: 3px; /* Adds gap*/
     text-align: left;
     flex: 1;
     flex-direction: row;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
     line-height: 29px;
     color: rgb(255, 255, 255);
-
 }
 .underline-2{
     width: 60px;
@@ -175,6 +176,18 @@ li:hover{
 .about-me-tagline{
     margin-top: 50px;
     font-size: 20px;
+}
+
+
+.about-me-image-section{
+    width: 250px; /*defining dimensions of picture*/
+    height: 300px;
+    margin-top: 180px;
+    object-fit: cover; /*smooth and balanced picture cropping*/
+    border-radius: 10px;
+    box-shadow: 15px -15px 0px 0px rgba(255, 255, 255), 15px 15px 0px 0px rgba(255, 255, 255);  /*18px is horizontal offset moving shadow left-wise, -18px is vertical offset moving shadow upwards, 0px blur radius, 0px spread  radius*/
+
+    border: 0px dashed #ffffff;; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
 }
 .about-me-column2>button{
     padding: 10px 30px;
