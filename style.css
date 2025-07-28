@@ -397,3 +397,83 @@ li:hover{
     }
 
 }
+
+
+
+/* 
+---------------------------------------------------------------- */
+
+/* RESUME STYLING */
+
+/* Education */
+.education{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.edu-columns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+
+}
+.edu-columns div{
+    width: 250px;
+    height: 300px;
+    background-color: #5459AC;
+    border-radius: 8px;
+}
+
+/* Experience */
+
+.experience{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.exp-columns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+
+}
+.exp-columns div{
+    width: 300px;
+    height: 300px;
+    background-color: #5459AC;
+}
+
+/* Skills */
+.skills{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.skl-columns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+}
+.skl-columns div{
+    width: 300px;
+    height: 300px;
+    background-color: #5459AC;
+}
