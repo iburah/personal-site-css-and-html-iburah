@@ -20,7 +20,70 @@
     margin-top: 15px;
     object-fit: cover; /*smooth and balanced picture cropping*/
     border-radius: 50%; /*for circular image shape*/
-    border: 6px double #52357B;; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
+    border: 6px double #52357B; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
+}
+
+/* Defining the icons for social media */
+
+.icon-items{
+    display: inline-block; /*to arrange items in row*/
+    gap: 20px;
+}
+
+.github{
+    background-image: url("images/icons/github.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 30px; /*defining dimensions of picture*/
+    height: 30px;
+    border-radius: 50%;
+    border: 2px double #5459AC;
+}
+.linkedin{
+    background-image: url("images/icons/linkedin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 30px; /*defining dimensions of picture*/
+    height: 30px;
+    border-radius: 50%;
+    border: 2px double #5459AC;
+}
+.fb{
+    background-image: url("images/icons/facebook.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 30px; /*defining dimensions of picture*/
+    height: 30px;
+    border-radius: 50%;
+    border: 2px double #5459AC;
+}
+.twitter{
+    background-image: url("images/icons/twitter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 30px; /*defining dimensions of picture*/
+    height: 30px;
+    border-radius: 50%;
+    border: 2px double #5459AC;
+}
+.ig{
+    background-image: url("images/icons/instagram.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 30px; /*defining dimensions of picture*/
+    height: 30px;
+    border-radius: 50%;
+    border: 2px double #5459AC;
 }
 
 .my-profile-img:hover {
@@ -90,7 +153,7 @@
     margin-top:5px;
     text-align: center;
 }
-ul{
+#nav_bar_items{
     display: inline-block; /*to arrange items in row*/
     gap: 10px;
     font-family: Tahoma;
