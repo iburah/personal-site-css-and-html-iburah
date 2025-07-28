@@ -114,16 +114,6 @@
     display: block; /*to have this new item on a new line*/
 }
 
-.about-me{
-    width: 50%;
-    font-family:Tahoma;
-    color: #5459AC;
-    font-size: 14px;;
-    border-radius: 8px;
-    line-height: 24px;
-    font-weight: bold;
-}
-
 #buttons_grouped{
     display: flex; /*row arrangement of 2 buttons*/
     gap: 10px; /*button space from each other*/
