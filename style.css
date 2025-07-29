@@ -411,7 +411,19 @@ li:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: Tahoma;
+    font-size: 15px;
+    gap: 30px;
+    background-color: hsla(237, 47%, 60%, 0.2);
 
+
+}
+.edu-title{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:#52357B;
+    font-weight: 900;
 }
 .edu-columns{
     display: flex;
@@ -426,10 +438,37 @@ li:hover{
 .edu-columns div{
     width: 250px;
     height: 300px;
-    background-color: #5459AC;
+    background-color: #ffffff;
     border-radius: 8px;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.edu-column-1 p, .edu-column-2 p, .edu-column-3 p, .edu-column-4 p{
+    color:#5459AC;
+    top: 20px;
+    font-size: 18px;
+    position: absolute;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.edu-column-1 button, .edu-column-2 button, .edu-column-3 button, .edu-column-4 button{
+    color:#5459AC;
+    bottom: 10px;
+    font-size: 10px;
+    position: absolute;
+    padding: 15px 80px;
+    box-shadow: 0px 3px 4px 0px rgb(0, 0, 0, 0.3); /*styling with the box shadow method*/
+    border: none;
+    border-radius: 3px;
+    right: 10px;
+}
+.edu-column-1>p>span, .edu-column-2>p>span, .edu-column-3>p>span, .edu-column-4>p>span{
+    font-weight: 100;
+    font-size: 14px;
+    color: black;
+}
 /* Experience */
 
 .experience{
@@ -437,7 +476,29 @@ li:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: Tahoma;
+    font-size: 15px;
+    height: 600px;
+    gap: 30px;
+    background-image: url(images/vr.jpg);
+    background-color: #5459AC;
+    background-blend-mode:multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 40px;
 
+
+}
+.exp-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:#ffffff;
+    font-weight: 900;
+    padding-top: 100px;
 }
 .exp-columns{
     display: flex;
@@ -450,9 +511,32 @@ li:hover{
 
 }
 .exp-columns div{
-    width: 300px;
+    width: 250px;
     height: 300px;
-    background-color: #5459AC;
+    background-color: #ffffff;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exp-column-1 p, .exp-column-2 p, .exp-column-3 p{
+    color:#5459AC;
+    top: 20px;
+    font-size: 18px;
+    position: absolute;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.exp-column-1>p>span, .exp-column-2>p>span, .exp-column-3>p>span{
+    font-weight: 900;
+    font-size: 12px;
+    color: #52357B;
+}
+.exp-column-1>p>span>span, .exp-column-2>p>span>span, .exp-column-3>p>span>span{
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(112, 111, 111);
 }
 
 /* Skills */
