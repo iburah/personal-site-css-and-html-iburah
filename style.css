@@ -420,7 +420,7 @@ li:hover{
 }
 .edu-title{
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 30px;
     color:#52357B;
     font-weight: 900;
@@ -433,6 +433,7 @@ li:hover{
     flex-wrap: wrap;
     align-items:center;
     text-align: center;
+    margin-top: 60px;;
 
 }
 .edu-columns div{
@@ -494,7 +495,7 @@ li:hover{
 }
 .exp-title{
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 30px;
     color:#ffffff;
     font-weight: 900;
@@ -545,19 +546,63 @@ li:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: Tahoma;
+    font-size: 15px;
+    gap: 30px;
+    background-color: hsla(237, 47%, 60%, 0.2);
+    margin-top: 40px;
 
+
+}
+.skl-title{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    color: #5459AC;
+    font-weight: 900;
+    padding-top: 100px;
 }
 .skl-columns{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px; 
     justify-content:center;
     flex-wrap: wrap;
     align-items:center;
-    text-align: center;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .skl-columns div{
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 100px;
     background-color: #5459AC;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skl-column-1>div, .skl-column-2>div,.skl-column-3>div,.skl-column-4>div{
+    width: 200px;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    left: -100px;
+    top: 20px;
+    justify-content: center;
+}
+.skl-column-1>p, .skl-column-2>p, .skl-column-3>p, .skl-column-4>p{
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    left: 120px;
+    top: 15px;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+}
+.skl-column-1>div>p, .skl-column-2>div>p,.skl-column-3>div>p, .skl-column-4>div>p{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(134, 133, 133);
 }
