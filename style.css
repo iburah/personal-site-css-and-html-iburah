@@ -512,8 +512,8 @@ li:hover{
 
 }
 .exp-columns div{
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 280px;
     background-color: #ffffff;
     border-radius: 8px;
     position: relative;
@@ -584,11 +584,18 @@ li:hover{
 .skl-column-1>div, .skl-column-2>div,.skl-column-3>div,.skl-column-4>div{
     width: 200px;
     height: 60px;
+    display: flex;
+    flex-direction: row;
     background-color:rgb(255, 255, 255);
     position: absolute;
     left: -100px;
     top: 20px;
-    justify-content: center;
+    justify-content: left;
+}
+.skl-column-1>img, .skl-column-2>img, .skl-column-3>img, .skl-column-4>img{
+    width: 5px;
+    height: 20px;
+
 }
 .skl-column-1>p, .skl-column-2>p, .skl-column-3>p, .skl-column-4>p{
     width: 450px;
