@@ -178,16 +178,55 @@ li:hover{
 /*SECOND PAGE*/
 
 
-.about-me-section{
- 
-    gap: 10px; /*defining space between items*/
-    /*flex-direction: column;/*stacking items in the container vertically*/
-    text-align: center;
+.myabout-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#f0f8ff;
+    padding: 20px;
+    /* height: 600px; */
     font-family: Tahoma;
-    /* text-align: center; */
-    background-color: #5459AC;
-    border-radius: 8px;
+    margin-left: 200px;
+    flex-wrap: wrap; 
 }
+.myabout-container div {
+    padding: 20px;
+    
+    /*border:1px solid #1a3e72;*/
+    text-align: center;
+    font:bold 16px Arial, sans-serif;
+    flex: 1 1 200px;    /* Allow flexible growth/shrinkage, minimum width of 200px */
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 550px;;
+    text-align: left;
+    
+}
+.myabout-container div p{
+    font-weight: 100;
+    color:#5a5d96;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.myprojects-container div:hover{
+    background-color: #cce0ff;
+    transform: scale(1.05);
+}
+
+.myprojects-container>div>p>button{
+  padding: 6px 10px;
+  border: none;
+  font-size: 10px;
+  border-radius: 6px;
+  background-color: #5a5d96;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 .section-title{
     font-size: 30px;
     margin-top: 60px;
@@ -202,26 +241,7 @@ li:hover{
     margin:auto; /*provides equal margins on the left and right and centers item*/
 
 }
-.about-me-content{
-    display: flex; /* activating flexbox for column layout*/
-    align-items: flex-start; /* Aligns items to top */
-    /*flex-wrap: wrap; /*Allows wrapping on smaller screens */
-    gap: 3px; /* Adds gap*/
-    text-align: left;
-    flex: 1;
-    flex-direction: row;
-    margin-left: 200px;
-    margin-right: 200px;
-    line-height: 29px;
-    color: rgb(255, 255, 255);
-}
-.underline-2{
-    width: 60px;
-    height: 1px;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 30px;
 
-}
 .about-me-2{
     font-family:Tahoma;
     font-size: 15px;;
@@ -229,12 +249,11 @@ li:hover{
     border: #52357B;
 
 }
-.about-me-column2{
+.abt-column2{
     margin-top: 150px;
-    margin-bottom: 40px;
 }
 .about-me-tagline{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -242,27 +261,21 @@ li:hover{
 .about-me-image-section{
     width: 250px; /*defining dimensions of picture*/
     height: 300px;
-    margin-top: 180px;
+    margin-top: 80px;
     object-fit: cover; /*smooth and balanced picture cropping*/
     border-radius: 10px;
     box-shadow: 15px -15px 0px 0px rgba(255, 255, 255), 15px 15px 0px 0px rgba(255, 255, 255);  /*18px is horizontal offset moving shadow left-wise, -18px is vertical offset moving shadow upwards, 0px blur radius, 0px spread  radius*/
-
     border: 0px dashed #ffffff;; /*border styles: double(for 2 solid lines), solid, dashed, dotted*/
 }
-.about-me-column2>button{
-    padding: 10px 30px;
-    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.2); /*styling with the box shadow method*/
-    border: none;
-    border-radius: 5px;
-    background-color: #5459AC;
-    color:rgb(255, 255, 255);
-    font-family: Tahoma;
-    cursor: pointer;
-    margin-top: 30px;
-}
-.read-more:hover{
-     background-color: #686dc9;
-     transform: scale(1.03);
+.abt-column2>a>button{
+  padding: 6px 10px;
+  border: none;
+  font-size: 10px;
+  border-radius: 6px;
+  background-color: #5a5d96;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /* Footer-Get in touch */
@@ -333,7 +346,7 @@ li:hover{
     align-items: center;
     background-color:#f0f8ff;
     padding: 20px;
-    border-radius: 5px;
+    
     font-family: Tahoma;
     margin-left: 200px;
     flex-wrap: wrap; /* Allow child elements to wrap to the next line if needed */
@@ -379,7 +392,16 @@ li:hover{
     transform: scale(1.05);
 }
 
-
+.myprojects-container>div>p>a>button{
+  padding: 6px 10px;
+  border: none;
+  font-size: 10px;
+  border-radius: 6px;
+  background-color: #5a5d96;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 
 
