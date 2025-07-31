@@ -403,6 +403,53 @@ li:hover{
   transition: background-color 0.3s ease;
 }
 
+/*Contacts*/
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding: 20px;
+    
+    font-family: Tahoma;
+    margin-right: 250px;
+    margin-left: 120px;
+    flex-wrap: wrap; /* Allow child elements to wrap to the next line if needed */
+}
+.contact-section-title{
+    font-size: 30px;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #000000;
+    font-family: Tahoma;
+    margin-left: 200px;
+
+
+}
+
+.contact-container div {
+    padding-left: 20px;
+    
+    /*border:1px solid #1a3e72;*/
+    
+    font-weight: bold;
+    font-size: 20px;
+    flex: 1 1 200px;    /* Allow flexible growth/shrinkage, minimum width of 200px */
+    margin: 10px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    height: 180px;
+    width: 300px;
+    text-align: left;
+    
+}
+.contact-container div p{
+    font-weight: 100;
+   
+    font-size: 12px;
+    line-height: 20px;
+}
 
 
 
