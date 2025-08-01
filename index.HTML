@@ -10,13 +10,13 @@
        /*styling with the hovering effect of the mouse*/
         .my_resume_button:hover{
             background-color: #303480;
-            transition-duration: 0.1s;
+            transition-duration: 0.3s;
             color: rgb(255, 255, 255);
             transform: scale(1.01);
         }
         .contact_me_button:hover{
             background-color: #303480;
-            transition-duration: 0.1s;
+            transition-duration: 0.3s;
             color: #ffffff;
             transform: scale(1.01);
         }
@@ -27,16 +27,17 @@
     <!-- Navigation bar -->
     <div id="navigation_bar">
             <ul id="nav_bar_items">
-                <li>Partnerships</li>
-                <li>Projects</li>
-                <li>About Me</li>
-                <li>Home</li>
+                 <li><a href="#stay-in-touch" style = "text-decoration: none;">Partnerships</a></li>
+                <li><a href="#projects-scroll" style = "text-decoration: none;">Projects</a></li>
+                <li><a href="#about-me-scroll" style = "text-decoration: none;">About Me</a></li>
+                <li><a href="#home-profile-scroll" style = "text-decoration: none;">Home</a></li>
 
             </ul>
 
     </div>
 
     <!-- Home profile -->
+     <div id = "home-profile-scroll">
     <div class = 'container'>
         <img src = "images/myprofile.jpg" alt = "Loading ... " class = "my-profile-img">
         <p class = "who_am_i"> Hello, I am Ibrahim <br>
@@ -69,10 +70,11 @@
         <!--the buttons have been grouped together for easeness of flexbox layout-->
        
     </div>
+    </div>
 
 
 <!-- My about Section -->
-         <div>
+         <div id ="about-me-scroll">
             <h3 class = "project-section-title">About Me</h3>
             <div class="underline-1" style="background-color: #1a3e72; margin-bottom: 60px; margin-top: 60px;"></div>
             <div class="myabout-container"> 
@@ -102,7 +104,7 @@
 
 
 <!-- Projects Section -->
-         <div>
+         <div id = "projects-scroll">
             <h3 class = "project-section-title">My Projects</h3>
             <div class="underline-1" style="background-color: #1a3e72; margin-bottom: 60px; margin-top: 60px;"></div>
             <div class="myprojects-container"> 
@@ -167,7 +169,7 @@
 
 
     <!-- Stay in touch section -->
-        <div>
+        <div id = "stay-in-touch">
             <h3 style="font-size:30px; margin-left: 200px; font-family: Tahoma;">Stay in Touch</h3>
             <div class = "underline-3" style = "margin-left: 200px;"></div> 
             <div class = "stay-in-touch">
