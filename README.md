@@ -88,3 +88,12 @@ README.md
 ## ✍️ Student Reflection (To be completed by you)
 
 Add your reflection here. Discuss your design choices, what you found difficult, and what you're most proud of (minimum 100 words).
+
+Designing this portfolio website has been a challenging yet rewarding experience. My design choices were inspired by clean and structured layouts I saw on websites like those of Egenco and Oasis Brands, which influenced my preference for a simple, professional aesthetic with strong typography and clear navigation.
+
+One of the main difficulties I encountered was properly utilizing CSS layout concepts, especially around the use of display and position properties. Understanding how elements flow and align on the page took some trial and error. I also struggled with code reusability in CSS, as I found myself repeating similar styles instead of efficiently using reusable classes or external stylesheets.
+
+Another setback was that at one point, my local files got misplaced or lost, which made it difficult to sync with GitHub. This slowed down my workflow and taught me the importance of backing up files and maintaining proper version control early on.
+Apart from that, my sketches were handdrawn which made it difficult to make selections of things like color, dimensions and font sizes.
+
+Despite the challenges, I’m proud of what I’ve achieved. I’ve learned key HTML concepts like the <a href> tag, gained a deeper appreciation for web development fundamentals, and developed confidence to continue improving and building more advanced projects in the future. And also, the most interesting feature i have created was the image on the about me section where i skillfully used the shadow to create that interesting effect.
